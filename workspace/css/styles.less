@@ -1,0 +1,52 @@
+@brownDash : #9f6501;
+@baseFontColor : #000000;
+
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+/* Rouble */
+@font-face {	font-family: 'Ruble';	src: url('rouble.eot');	src: local('ALS Ruble'),	url('rouble.woff') format('woff'),	url('rouble.otf') format('opentype');
+}
+.rur {
+    font-family: 'Ruble';
+}
+.rur span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; }
+.rur span:before { content: '\2013'; }
+/* Body and structure
+-------------------------------------------------- */
+/* taht shit made for footer fixed to bottom */
+html, body {
+    height: 100%;
+}
+body {
+   position: relative;
+   background: url("../../images/bg.png") repeat left top;
+   color: #383838;
+}
+
+.content-wrapper {
+    height: auto;
+    min-height: 100%;
+
+    .wrap { padding-bottom: 250px;}
+}
+
+label.valid { color: green}
+
+p, h1, h2, h3, h4, h5, h6 { line-height: 1.3;}
+
+/* block */
+.block-wrapper {
+   *zoom:1;
+}
+.block-wrapper:before, .block-wrapper:after {
+   display:table;
+   content:"";
+}
+.block-wrapper:after { clear:both; }
+
+

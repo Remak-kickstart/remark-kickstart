@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+	require_once dirname(__FILE__) . '/lib/entities.less.class.php';
+
+	$less = new LessCode();
+	$less->setVariable('panes.input.select.hover.bg', 'XXXXXXXXXXXXXX');
+	$less->parseFile($_SERVER['argv'][1]);
+	echo $less->output();
+?>

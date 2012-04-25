@@ -1,0 +1,24 @@
+div.field-pinnable label {
+	margin-bottom: 2px;
+}
+div.field-pinnable div.map {
+	border: 1px solid black;
+	cursor: crosshair;
+	display: inline-block;
+	margin-bottom: 1.5em;
+	overflow: hidden;
+	position: relative;
+}
+div.field-pinnable div.map img {
+	vertical-align: bottom;
+}
+div.field-pinnable div.map div.pin {
+	background: hsla(0, 0%, 15%, 0.7);
+	background-clip: padding-box;
+	border: 2px solid hsla(0, 0%, 95%, 0.8);
+	border-radius: 12px;
+	height: 12px;
+	margin: -7px 0 0 -7px;
+	position: absolute;
+	width: 12px;
+}

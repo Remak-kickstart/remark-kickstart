@@ -1,0 +1,13 @@
+div.field-ymaplocation {
+	margin-bottom: 1.75em;
+	padding: 10px;
+	background-color: #F5F5F3;
+	border: 1px solid #E4E4DE;
+	overflow: auto;
+	clear: both;
+}
+
+div.field-ymaplocation div.ymap {
+	width: 100%;
+	height: 300px;
+}

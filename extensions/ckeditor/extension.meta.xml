@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension id="ckeditor" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>CKEditor</name>
+	<description>Includes CKEditor, a web-based XHTML editor developed by Frederico Knabben. It also has an integrated file browser which uses Symphony sections to get it's files from.</description>
+	<repo type="github">https://github.com/kanduvisla/ckeditor</repo>
+    <types>
+        <type>Text Formatter</type>
+    </types>
+	<authors>
+		<author>
+			<name github="kanduvisla" symphony="kanduvisla">Giel Berkers</name>
+            <email>info@gielberkers.com</email>
+            <website>http://www.gielberkers.com</website>
+		</author>
+	</authors>
+	<releases>
+        <release version="1.2.4" date="2011-12-12" min="2.3"/>
+		<release version="1.2.3" date="2011-08-18" min="2.2.x"/>
+        <release version="1.2" date="2011-02-25" max="2.2"/>
+        <release version="1.1" date="2011-02-21" min="2.1.2"/>
+	</releases>
+</extension>
